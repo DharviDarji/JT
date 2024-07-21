@@ -10,6 +10,10 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 nav ul {
@@ -53,7 +57,9 @@ section {
 }*/
 .hello{
     background: url('t1.png') no-repeat center center/cover;
-    height: 520px;;
+    height: 520px;
+    display: block;
+    padding-top: 150px;
 }
 .hello h2{
     text-align: center;
@@ -116,6 +122,8 @@ footer {
 #services {
     padding: 20px;
     background-color: #f9f9f9;
+    display: block;
+    padding-top: 120px;
 }
 
 #services h2 {
@@ -170,6 +178,8 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
+    display: block;
+    padding-top: 120px;
 }
 
 form {
@@ -220,6 +230,10 @@ input[type="submit"]:hover {
     font-weight: bold; 
     color: #333;       
     margin: 20px 0;   
+}
+#gallery{
+    display: block;
+    padding-top: 150px;
 }
 
 
